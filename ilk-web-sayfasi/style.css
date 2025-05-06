@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #efd9ed; /* açık gri arka plan */
+  text-align: center;
+  padding: 20px;
+}
+
+  .info-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  a {
+    color:rgb(207, 108, 186);
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+  }
+
+
+
+
+  @media(max-width:768px){
+    body{
+      padding: 10px;
+    }
+
+    .info-box{
+      width: 90%;
+      margin:10px auto;
+    }
+    .sola-yan{
+      width: 90%;
+      margin: 10px auto;
+      text-align: left;
+      white-space: normal;
+    }
+    input,button{
+      width: 100%;
+      font-size: 16px;
+    }
+    img{
+      width: 100px;
+    }
+  }
+  a:hover{
+    color: white;
+    background-color: #efd9ed;
+    transform: scale(1.05);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color:#efd9ed;
+    color:white;
+    transform: scale(0.95);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .info-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+  body.dark-mode {
+    background-color: #463d3d;
+    color: #ffffff;
+  }
+  
+  .dark-mode .info-box {
+    background-color: #de93d6;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark-mode a {
+    color: #bb30c2;
+  }
+  
+  #temaButonu {
+    top: 20px;
+    padding: 5px;
+    background-color: #9c709c;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+
+
+  .bilgi-kutulari{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap;
+  }
+  .bilgi-karti {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .bilgi-karti:hover {
+    transform: scale(1.03);
+  }
+  
+  .bilgi-karti h3 {
+    color: #db5ea1;
+    margin-bottom: 5px;
+  }
+  
+  .bilgi-karti ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .bilgi-karti ul li::before {
+    content: "✓ ";
+    color:#bb30c2;
+  }
+  h2{
+    color: #bb30c2;
+  }
+
+  form{
+    padding-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .form-kutu {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* YATAY ortalama */
+    justify-content: center; /* DİKEY ortalama */
+    gap: 15px;
+  }
+  .form-kutu input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .form-kutu button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+  .form-kutu button:hover {
+    background-color: #148f77;
+  }
+  
+  
+  
+  
+  
