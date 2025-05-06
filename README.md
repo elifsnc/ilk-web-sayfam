@@ -1,2 +1,5 @@
-# ilk-web-sayfam
-HTML ve CSS ile oluşturduğum ilk web sayfası.
+# İlk Web Sayfam
+
+Bu proje, HTML ve CSS öğrenme sürecimde oluşturduğum ilk deneme sayfasıdır.  
+Statik bir yapıdadır ve temel etiketlerin kullanımını içermektedir.  
+İlerleyen süreçte projelerimin gelişmiş versiyonlarını da buraya eklemeye devam edeceğim.
